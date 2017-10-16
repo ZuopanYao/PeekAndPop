@@ -12,6 +12,7 @@
 		B9C9027F1F94A5CF00DFA375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C9027D1F94A5CF00DFA375 /* Main.storyboard */; };
 		B9C902811F94A5CF00DFA375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C902801F94A5CF00DFA375 /* Assets.xcassets */; };
 		B9C902841F94A5CF00DFA375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C902821F94A5CF00DFA375 /* LaunchScreen.storyboard */; };
+		B9C9028C1F94A6E800DFA375 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C9028B1F94A6E800DFA375 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B9C902801F94A5CF00DFA375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9C902831F94A5CF00DFA375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9C902851F94A5CF00DFA375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9C9028B1F94A6E800DFA375 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				B9C902791F94A5CF00DFA375 /* AppDelegate.swift */,
 				B9C9027B1F94A5CF00DFA375 /* ViewController.swift */,
+				B9C9028B1F94A6E800DFA375 /* WebViewController.swift */,
 				B9C9027D1F94A5CF00DFA375 /* Main.storyboard */,
 				B9C902801F94A5CF00DFA375 /* Assets.xcassets */,
 				B9C902821F94A5CF00DFA375 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9C9027C1F94A5CF00DFA375 /* ViewController.swift in Sources */,
+				B9C9028C1F94A6E800DFA375 /* WebViewController.swift in Sources */,
 				B9C9027A1F94A5CF00DFA375 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,10 +279,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F6Z3RQ3U65;
+				DEVELOPMENT_TEAM = NZ27AKH6LN;
 				INFOPLIST_FILE = PeekAndPop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yaozuopan.PeekAndPop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.3456wan.PeekAndPop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,10 +294,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F6Z3RQ3U65;
+				DEVELOPMENT_TEAM = NZ27AKH6LN;
 				INFOPLIST_FILE = PeekAndPop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yaozuopan.PeekAndPop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.3456wan.PeekAndPop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
